@@ -1,0 +1,157 @@
+/* Chinese Classroom V2.2: nâng cấp giao diện, không thay đổi cơ chế license */
+:root{--blue:#1566c0;--ink:#182338}body{background:#f4f7fb}.lesson-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}.lesson-tile{text-align:left;border:1px solid #d9e5f2;background:#fff;border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;min-height:145px;cursor:pointer;color:#182338;margin:0}.lesson-tile:hover,.lesson-tile:focus-visible{border-color:#1566c0;background:#f0f7ff}.lesson-tile .tag{font-size:12px;color:#1566c0;font-weight:700}.lesson-tile strong{font-size:19px}.lesson-tile small{font-size:13px;color:#526176}.filter{background:#e8eef6;color:#334155}.filter.active{background:#1566c0;color:#fff}.secondary{background:#64748b}#newLessonBody .study-card{background:#f4f9ff;border:1px solid #dce8f5;border-radius:16px;padding:24px;margin:14px 0}.study-han{font-size:clamp(30px,6vw,48px);font-weight:750;text-align:center;line-height:1.5}.study-py{font-size:20px;color:#2563a8;text-align:center}.study-vi{text-align:center;font-size:18px}.meter{height:9px;background:#e6edf6;border-radius:99px;overflow:hidden;margin:14px 0}.meter>div{height:100%;background:#16a34a;transition:width .2s}#newLessonBody .lesson-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}#newLessonBody select{padding:9px;border-radius:8px;border:1px solid #cbd5e1}#newLessonBody button{min-height:44px}@media(max-width:600px){main{margin:0 auto;padding:10px}.card{padding:16px;border-radius:14px}.lesson-grid{grid-template-columns:1fr}.lesson-tile{min-height:110px}}
+
+/* Student-controlled display preferences (applies to every lesson). */
+.display-settings{padding:18px 24px}
+.settings-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.setting-options{display:flex;gap:12px;flex-wrap:wrap}
+.setting-toggle{display:inline-flex;align-items:center;gap:10px;cursor:pointer;background:#f3f7ff;border:1px solid #cbdcf4;border-radius:12px;padding:12px 16px;font-weight:600;user-select:none}
+.setting-toggle input{width:20px;height:20px;accent-color:#1566c0;cursor:pointer}
+.hide-pinyin #py,.hide-pinyin .study-py{display:none!important}
+.hide-vietnamese #vi,.hide-vietnamese .study-vi{display:none!important}
+@media(max-width:480px){.setting-options{flex-direction:column}.setting-toggle{width:100%}}
+
+/* Chinese handwriting practice */
+.writing-practice input[type=text],#writingChar{font:inherit;border:1px solid #cbd5e1;border-radius:9px;padding:10px;width:120px;max-width:100%}.writing-board{display:flex;justify-content:center;padding:16px 0}.writing-board canvas{width:min(100%,360px);height:auto;aspect-ratio:1;border:2px solid #b6cce5;border-radius:12px;background:white;touch-action:none;cursor:crosshair}.writing-switch{display:flex;align-items:center;gap:7px}.writing-char-button{background:#f1f5f9;color:#172033;border:1px solid #cbd5e1;font-size:23px;min-width:48px}.writing-char-button.active{background:#dbeafe;border-color:#2563eb}
+
+.stroke-guide-panel{margin:16px 0;padding:16px;border:1px solid #cfe0f6;background:#f8fbff;border-radius:14px}.stroke-guide-panel h3{margin:0 0 8px}.stroke-guide-frame{max-width:320px;margin:12px auto}.stroke-guide-frame svg{width:100%;height:auto;border:1px solid #b8cfea;border-radius:12px;display:block}.stroke-guide-panel button:disabled{opacity:.5}
+
+/* V2.8.1 — polished handwriting workspace */
+.stroke-polished{background:#f8faff;border:1px solid #dbe6f5;border-radius:18px;padding:20px;margin:20px 0 24px;max-width:100%}
+.stroke-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}
+.stroke-top h3{margin:0 0 5px;font-size:19px;letter-spacing:-.3px;color:#172b4d}
+.stroke-character{font-size:26px;color:#1767c1;margin-left:5px}
+.stroke-top p{margin:0;font-size:13px;color:#64748b}
+.stroke-counter{background:#e6f0ff;color:#1b5b9e;border-radius:20px;padding:7px 12px;font-weight:650;font-size:12px;white-space:nowrap}
+.stroke-polished .stroke-guide-frame{width:min(100%,310px);margin:0 auto 16px;aspect-ratio:1;background:#fff;border:1px solid #d4e0ef;border-radius:12px;overflow:hidden;box-shadow:0 3px 14px #1b355010}
+.stroke-polished .stroke-guide-frame svg{display:block;width:100%;height:100%}
+.stroke-toolbar{display:flex;justify-content:center;align-items:center;gap:7px;flex-wrap:wrap}
+.stroke-toolbar button{margin:0;padding:10px 12px;border-radius:9px;font-size:13px;font-weight:600;white-space:nowrap}
+.stroke-toolbar button.secondary{background:#e9eef6;color:#33465e}
+.stroke-toolbar button:disabled{opacity:.4}
+.stroke-hint{text-align:center;font-size:12px;color:#738299;margin:13px 0 0!important}
+@media(max-width:520px){.stroke-polished{padding:14px}.stroke-polished .stroke-guide-frame{width:min(100%,270px)}.stroke-toolbar button{flex:1 1 42%;font-size:12px}}
+
+/* V2.8.2 — tablet and phone responsive handwriting */
+html{min-width:0}body{min-width:0}main{width:100%;max-width:1080px}.card{min-width:0}
+.writing-practice{overflow:visible}.writing-practice .row{min-width:0}.writing-practice button{touch-action:manipulation}
+.writing-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:8px 0 0}
+.writing-expand{background:#e8f2ff;color:#1457a2;border:1px solid #bed5f3;font-weight:700;margin:0}
+.writing-board{position:relative}.writing-board canvas{display:block;width:min(100%,360px);height:auto;max-width:100%;aspect-ratio:1;user-select:none;-webkit-user-select:none}
+.writing-close{display:none}
+@media(min-width:760px) and (orientation:landscape){
+ .writing-practice{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:22px;align-items:start}
+ .writing-practice>h2,.writing-practice>p:first-of-type,.writing-practice>.row:first-of-type,.writing-practice>#writingChars,.writing-practice>.row:last-of-type,.writing-practice>#writingStatus{grid-column:1/-1}
+ .writing-practice>.stroke-polished{grid-column:1;grid-row:5/7;margin:12px 0}
+ .writing-practice>.writing-heading{grid-column:2;grid-row:5;margin:12px 0 0}
+ .writing-practice>.writing-board{grid-column:2;grid-row:6;align-self:start;padding:8px 0}
+ .stroke-polished .stroke-guide-frame{width:min(100%,310px)}
+}
+@media(max-width:759px){
+ main{padding:10px;margin:0 auto}.card{padding:clamp(12px,3vw,20px);margin:12px 0;border-radius:14px}
+ .writing-practice>h2{font-size:clamp(19px,5vw,25px)}
+ .writing-practice>.row:first-of-type{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}
+ .writing-practice>.row:first-of-type label{grid-column:1/-1}
+ #writingChar{width:100%;min-width:0}
+ #writingFromLesson{margin:0;padding:10px 8px;min-height:44px;font-size:13px}
+ .stroke-polished{padding:12px;margin:14px 0}.stroke-top h3{font-size:17px}
+ .stroke-polished .stroke-guide-frame{width:min(100%,280px)}
+ .stroke-toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .stroke-toolbar button{min-width:0;width:100%;min-height:44px;white-space:normal;padding:9px 6px;margin:0}
+ .writing-board{padding:10px 0}.writing-board canvas{width:min(100%,340px)}
+ .writing-practice>.row:last-of-type{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .writing-practice>.row:last-of-type button{min-height:44px;margin:0;padding:9px 5px;font-size:13px}
+ .writing-switch{min-height:44px;justify-content:center}
+ .writing-char-button{min-height:44px}
+}
+@media(max-width:380px){.stroke-polished .stroke-guide-frame{width:min(100%,240px)}.stroke-top h3{font-size:15px}.stroke-counter{font-size:11px;padding:6px 8px}.writing-heading strong{font-size:14px}}
+/* Immersive writing mode for fingers and stylus; no screen orientation API required */
+body.writing-immersive{overflow:hidden}
+body.writing-immersive .writing-board{position:fixed;inset:0;z-index:9999;background:#f2f6fc;display:flex;align-items:center;justify-content:center;padding:58px 12px 16px;box-sizing:border-box}
+body.writing-immersive .writing-board canvas{width:min(calc(100vw - 28px),calc(100dvh - 100px),680px);max-height:calc(100dvh - 100px);height:auto;aspect-ratio:1;box-shadow:0 12px 38px #20334c22;background:#fff}
+body.writing-immersive .writing-close{display:block;position:absolute;top:max(10px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));margin:0;z-index:1;background:#334155;color:#fff;min-height:44px}
+@supports not (height:100dvh){body.writing-immersive .writing-board canvas{width:min(calc(100vw - 28px),calc(100vh - 100px),680px)}}
+
+/* V2.8.3 mobile tab layout; desktop and tablets retain side-by-side view. */
+.writing-mobile-tabs{display:none}
+@media(max-width:759px){
+ .writing-mobile-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:#eef3fa;padding:5px;border-radius:12px;margin-top:12px}
+ .writing-mobile-tabs button{margin:0;min-height:44px;padding:8px 5px;font-size:14px;background:transparent;color:#38516f;border-radius:9px}
+ .writing-mobile-tabs button.active{background:#fff;color:#145cba;box-shadow:0 1px 5px #1b355022}
+ .writing-practice[data-mobile-tab="guide"]>.writing-heading,.writing-practice[data-mobile-tab="guide"]>.writing-board,.writing-practice[data-mobile-tab="guide"]>.row:last-of-type,.writing-practice[data-mobile-tab="guide"]>#writingStatus{display:none}
+ .writing-practice[data-mobile-tab="practice"]>.stroke-polished{display:none}
+ .writing-practice[data-mobile-tab="guide"]>.stroke-polished{margin-top:10px}
+ .writing-practice[data-mobile-tab="practice"]>.writing-board canvas{width:min(100%,330px)}
+}
+
+/* V2.9: offline stroke data manager */
+.stroke-offline-manager{margin:12px 0 16px;border:1px solid #d7e5f5;border-radius:12px;padding:10px 14px;background:#f8fbff;max-width:100%;overflow-wrap:anywhere}.stroke-offline-manager summary{cursor:pointer;font-weight:650;color:#225c9b}.stroke-offline-manager button{font-size:13px;padding:9px 12px}.stroke-import-label{display:inline-flex;align-items:center;gap:7px;font-size:13px;border:1px solid #bcd1ea;padding:9px;border-radius:9px;cursor:pointer}.stroke-import-label input{max-width:155px;font-size:11px}.stroke-offline-manager .row{gap:5px}@media(max-width:600px){.stroke-offline-manager{padding:10px}.stroke-import-label{width:100%;justify-content:space-between}.stroke-guide-frame{max-width:min(100%,280px);margin-inline:auto}.stroke-guide-frame svg{width:100%;height:auto}.stroke-toolbar button{min-width:0}}
+
+/* V2.10: từ mới + nghĩa tiếng Việt cùng được đánh dấu */
+.v210-tokens{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:15px 0}.v210-token{font-size:clamp(27px,5vw,42px);background:#f4f7fc;color:#172033;border:1px solid #dbe5ef;border-radius:10px;padding:9px 13px}.v210-token.v210-new{color:#b91c1c;background:#fff1f2;border:2px solid #dc2626}.v210-meaning{font-size:19px;text-align:center;line-height:2.3}.v210-new-meaning{color:#b91c1c;background:#fff1f2;border:2px solid #dc2626;border-radius:7px;padding:5px 8px;font-weight:750}.v210-newbox{color:#b91c1c;border:2px solid #dc2626;border-radius:12px;padding:12px;margin:12px 0;font-weight:650}.v210-word{padding:12px;background:#eff6ff;border-radius:10px;margin:10px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}.v210-dialogue{border-top:1px solid #ddd;margin-top:24px;padding-top:14px}.v210-dialogue-line{padding:12px;background:#f8fafc;border-radius:12px;margin:10px 0}.v210-dialogue-word{padding:5px 8px;background:white;color:#1e40af;border:1px solid #cbd5e1;margin:3px;font-size:22px}.v210-dialogue .study-py{text-align:left;font-size:16px;margin:8px 0}@media(max-width:540px){.v210-token{padding:7px 9px}.v210-meaning{font-size:17px}}
+
+/* V2.11: focused catalog, illustrations exclusively in lesson cards */
+.hide{display:none!important}
+.cc-main-nav{display:flex;gap:8px;margin:16px 0 6px;flex-wrap:wrap}
+.cc-main-nav button{background:#e9eef6;color:#334155;font-weight:650;margin:0}
+.cc-main-nav button.active{background:#1767c1;color:#fff}
+.cc-library-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.cc-library-head h2{margin:0 0 6px}.cc-library-head p{margin:0 0 12px}
+.cc-search-label{font-size:13px;font-weight:650;color:#475569;display:grid;gap:6px;min-width:min(100%,260px)}
+.cc-search-label input{border:1px solid #cbd5e1;border-radius:10px;padding:12px;font:inherit;width:100%;background:#fff}
+#catalogCount{margin:12px 0 0;color:#64748b}
+#lessonCatalog.lesson-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:12px}
+#lessonCatalog .cc-lesson-tile{display:flex;flex-direction:column;overflow:hidden;text-align:left;padding:0!important;min-height:0;background:#fff;border:1px solid #dce5ef;border-radius:14px;color:#182338;margin:0;box-shadow:none;transition:border-color .15s,transform .15s}
+#lessonCatalog .cc-lesson-tile:hover,#lessonCatalog .cc-lesson-tile:focus-visible{border-color:#1767c1;transform:translateY(-2px);outline-offset:2px}
+.cc-lesson-image{display:block;width:100%;height:110px;object-fit:cover;background:#f2f7ff}
+.cc-tile-body{display:flex;flex-direction:column;gap:7px;padding:13px;flex:1;width:100%}
+.cc-tile-body strong{font-size:16px;line-height:1.35;min-height:2.7em}
+.cc-tile-body small{color:#64748b;font-size:12px;line-height:1.45}
+.cc-tile-body .tag{align-self:start;font-size:12px}
+.cc-tile-progress{margin-top:auto;color:#1767c1!important;font-weight:650}
+.cc-pages{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:16px}
+.cc-pages button{font-size:13px;padding:9px 12px;background:#eaf1fb;color:#225c9b}
+.cc-pages[hidden]{display:none}
+@media(max-width:700px){#lessonCatalog.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cc-lesson-image{height:95px}.cc-tile-body{padding:10px}.cc-tile-body strong{font-size:14px}.cc-library-head{align-items:stretch}.cc-search-label{width:100%}}
+@media(max-width:360px){#lessonCatalog.lesson-grid{grid-template-columns:1fr}.cc-lesson-image{height:125px}}
+.v210-pinyin-token.new{color:#b91c1c;font-weight:750;border-bottom:2px solid #dc2626}
+
+
+/* V2.12: compact catalog and unmistakable new-word Pinyin */
+main{max-width:1120px}
+#library{padding:18px 20px}
+#library .cc-library-head h2{font-size:23px}
+#levelFilters{gap:5px;margin-top:9px}
+#levelFilters .filter{padding:8px 11px;margin:2px 1px;font-size:13px;border-radius:8px;min-height:36px}
+#lessonCatalog.lesson-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:10px}
+#lessonCatalog .cc-lesson-tile{border-radius:11px}
+#lessonCatalog .cc-lesson-image{height:72px}
+#lessonCatalog .cc-tile-body{padding:9px 11px;gap:4px}
+#lessonCatalog .cc-tile-body strong{font-size:14px;line-height:1.28;min-height:0}
+#lessonCatalog .cc-tile-body small{font-size:11px;line-height:1.35}
+#lessonCatalog .cc-tile-body .tag{font-size:10px}
+#lessonCatalog .cc-tile-progress{padding-top:3px}
+#catalogCount{margin-top:8px}
+.v210-pinyin-token{display:inline-block;margin-right:.32em;color:#2563a8}
+.v210-pinyin-token.new{color:#b91c1c!important;background:#fff1f2;border:1.5px solid #dc2626;border-bottom:2px solid #dc2626;border-radius:6px;padding:2px 5px;font-weight:800}
+@media(max-width:850px){#lessonCatalog.lesson-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){
+ main{width:100%;max-width:100%;margin:0;padding:8px}
+ #library{padding:12px}
+ #levelFilters{gap:3px}
+ #levelFilters .filter{padding:7px 9px;font-size:12px}
+ #lessonCatalog.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ #lessonCatalog .cc-lesson-image{height:60px}
+ #lessonCatalog .cc-tile-body{padding:8px;gap:4px}
+ #lessonCatalog .cc-tile-body strong{font-size:13px}
+ #lessonCatalog .cc-tile-body small{font-size:10px}
+ .cc-main-nav button{font-size:13px;padding:9px 12px}
+ #newLessonBody .study-card{padding:12px}
+ .v210-token{font-size:clamp(22px,6vw,34px);padding:6px 8px}
+ .v210-pinyin-token{font-size:15px}
+}
+@media(max-width:340px){#lessonCatalog.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.cc-focus-han,.cc-focus-py,.cc-focus-vi{color:#b91c1c!important;background:#fff1f2;border:1.5px solid #dc2626;border-radius:6px;padding:2px 5px;font-weight:800}
+
+.cc-vocab-section,.cc-exercises{border:1px solid #cbd5e1;border-radius:12px;padding:12px;margin:12px 0}.cc-vocab-section summary,.cc-exercises summary{cursor:pointer;font-weight:700}.cc-vocab-row{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e2e8f0;padding:8px 2px;flex-wrap:wrap}.cc-vocab-row button{width:auto}.cc-dialogue-focus{color:#b91c1c!important;background:#fff1f2!important;border:2px solid #dc2626!important;font-weight:800}
