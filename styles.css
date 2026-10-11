@@ -152,6 +152,15 @@ main{max-width:1120px}
 }
 @media(max-width:340px){#lessonCatalog.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-.cc-focus-han,.cc-focus-py,.cc-focus-vi{color:#b91c1c!important;background:#fff1f2;border:1.5px solid #dc2626;border-radius:6px;padding:2px 5px;font-weight:800}
-
-.cc-vocab-section,.cc-exercises{border:1px solid #cbd5e1;border-radius:12px;padding:12px;margin:12px 0}.cc-vocab-section summary,.cc-exercises summary{cursor:pointer;font-weight:700}.cc-vocab-row{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e2e8f0;padding:8px 2px;flex-wrap:wrap}.cc-vocab-row button{width:auto}.cc-dialogue-focus{color:#b91c1c!important;background:#fff1f2!important;border:2px solid #dc2626!important;font-weight:800}
+/* Luyện viết từng bước: bàn phím + bảng viết tay, không tự hiện đáp án */
+.cc-writing-exercise{margin:20px 0 12px;padding:18px;border:1px solid #cbdcf0;background:#f8fbff;border-radius:14px;max-width:100%}
+.cc-writing-exercise h3{margin:0 0 8px;color:#173a67;font-size:19px}
+.cc-writing-instruction{color:#53657b;font-size:14px;margin:0 0 12px}
+.cc-writing-question{padding:12px;background:#fff;border:1px solid #dbe5f0;border-radius:9px;font-weight:650;margin-bottom:14px;line-height:1.6}
+.cc-writing-label{display:block;font-weight:650;font-size:14px;margin:10px 0 7px}
+.cc-writing-label textarea{display:block;box-sizing:border-box;width:100%;min-height:100px;margin-top:8px;padding:12px;border:1px solid #bdcfe4;border-radius:10px;background:white;color:#172b4d;font:inherit;font-size:20px;resize:vertical}
+.cc-writing-canvas{display:block;width:100%;height:auto;aspect-ratio:10/3;min-height:145px;background:#fff;border:2px solid #b7cde7;border-radius:10px;touch-action:none;cursor:crosshair;box-sizing:border-box}
+.cc-writing-controls{display:flex;flex-wrap:wrap;gap:9px;margin-top:13px}
+.cc-writing-controls button{margin:0;min-height:44px}
+.cc-writing-answer{padding:13px;margin-top:12px;background:#eaf5ed;border:1px solid #b7dbc2;border-radius:9px;font-weight:650;font-size:18px;overflow-wrap:anywhere}
+@media(max-width:600px){.cc-writing-exercise{padding:12px}.cc-writing-canvas{aspect-ratio:2/1}.cc-writing-controls button{flex:1 1 140px;font-size:13px}}
