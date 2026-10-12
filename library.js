@@ -20,15 +20,17 @@ function addWritingPractice(body,lesson,step,source){
  const prompt=document.createElement('div');prompt.className='cc-writing-question cc-practice-question';panel.append(prompt);
  const field=document.createElement('textarea');field.rows=2;field.placeholder='Nhập chữ Hán hoặc dùng bộ gõ Pinyin bên dưới…';field.setAttribute('aria-label','Câu trả lời chữ Hán');field.className='cc-practice-input';panel.append(field);
  const imeHost=document.createElement('div');imeHost.className='cc-practice-ime';panel.append(imeHost);
- if(window.CCPinyinIME)window.CCPinyinIME.attach(imeHost,field);
+ if(window.CCPinyinIME)window.CCPinyinIME.attach(imeHost,field);else{const notice=document.createElement('p');notice.textContent='Bộ gõ Pinyin chưa tải. Hãy kiểm tra tệp pinyin-ime.js và tải lại trang.';imeHost.append(notice);}
  const answer=document.createElement('div');answer.className='cc-writing-answer hide cc-practice-answer';panel.append(answer);
  const actions=document.createElement('div');actions.className='cc-practice-actions';
  const prev=document.createElement('button');prev.type='button';prev.className='secondary';prev.textContent='← Câu trước';
  const next=document.createElement('button');next.type='button';next.textContent='Câu tiếp →';
  const reveal=document.createElement('button');reveal.type='button';reveal.className='secondary';reveal.textContent='Xem đáp án';
+ const check=document.createElement('button');check.type='button';check.textContent='✓ Kiểm tra đáp án';
+ const feedback=document.createElement('div');feedback.className='cc-practice-feedback hide';feedback.setAttribute('role','status');panel.append(feedback);
  const clear=document.createElement('button');clear.type='button';clear.className='secondary';clear.textContent='Xóa câu trả lời';
  const handwriting=document.createElement('button');handwriting.type='button';handwriting.className='secondary';handwriting.textContent='✍️ Mở bảng viết tay';
- actions.append(prev,next,reveal,clear,handwriting);panel.append(actions);
+ actions.append(check,prev,next,reveal,clear,handwriting);panel.append(actions);
  const writingArea=document.createElement('div');writingArea.className='cc-practice-handwriting hide';
  const canvas=document.createElement('canvas');canvas.className='cc-writing-canvas';canvas.width=900;canvas.height=200;canvas.setAttribute('aria-label','Bảng viết tay chữ Hán');writingArea.append(canvas);
  const erase=document.createElement('button');erase.type='button';erase.className='secondary';erase.textContent='Xóa nét viết';writingArea.append(erase);panel.append(writingArea);
@@ -39,12 +41,14 @@ function addWritingPractice(body,lesson,step,source){
  const positionKey=lesson.id;
  let index=fixed?Math.min(practicePositions.get(positionKey)||0,questions.length-1):0;
  const draftKey=()=>lesson.id+'::'+(fixed?'fixed-'+index:'step-'+step);
- function renderQuestion(){const q=questions[index];counter.textContent='Câu '+(index+1)+'/'+questions.length;prompt.textContent='Tiếng Việt: '+(q.vi||'');field.value=practiceDrafts.get(draftKey())||'';answer.textContent='Đáp án: '+(q.han||'')+(q.pinyin?' · '+q.pinyin:'');answer.classList.add('hide');shown=false;reveal.textContent='Xem đáp án';prev.disabled=index===0;next.disabled=index===questions.length-1;if(ctx)ctx.clearRect(0,0,canvas.width,canvas.height)}
- field.addEventListener('input',()=>practiceDrafts.set(draftKey(),field.value));
+ function renderQuestion(){const q=questions[index];counter.textContent='Câu '+(index+1)+'/'+questions.length;prompt.textContent='Tiếng Việt: '+(q.vi||'');field.value=practiceDrafts.get(draftKey())||'';answer.textContent='Đáp án: '+(q.han||'')+(q.pinyin?' · '+q.pinyin:'');answer.classList.add('hide');feedback.classList.add('hide');feedback.textContent='';shown=false;reveal.textContent='Xem đáp án';prev.disabled=index===0;next.disabled=index===questions.length-1;if(ctx)ctx.clearRect(0,0,canvas.width,canvas.height)}
+ field.addEventListener('input',()=>{practiceDrafts.set(draftKey(),field.value);feedback.classList.add('hide')});
+ const normalizeHan=t=>String(t||'').normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu,'');
+ check.onclick=()=>{const typed=normalizeHan(field.value),expected=normalizeHan(questions[index].han);feedback.classList.remove('hide');if(!typed){feedback.textContent='Hãy nhập câu trả lời bằng chữ Hán trước khi kiểm tra.';feedback.dataset.result='empty'}else if(typed===expected){feedback.textContent='✓ Chính xác! Bạn có thể chuyển sang câu tiếp theo.';feedback.dataset.result='correct'}else{feedback.textContent='✗ Chưa chính xác. Hãy kiểm tra lại chữ Hán hoặc nhấn Xem đáp án.';feedback.dataset.result='incorrect'}};
  prev.onclick=()=>{if(index>0){index--;practicePositions.set(positionKey,index);renderQuestion()}};
  next.onclick=()=>{if(index<questions.length-1){index++;practicePositions.set(positionKey,index);renderQuestion()}};
  reveal.onclick=()=>{shown=!shown;answer.classList.toggle('hide',!shown);reveal.textContent=shown?'Ẩn đáp án':'Xem đáp án'};
- clear.onclick=()=>{field.value='';practiceDrafts.delete(draftKey());field.focus()};
+ clear.onclick=()=>{field.value='';practiceDrafts.delete(draftKey());feedback.classList.add('hide');field.focus()};
  handwriting.onclick=()=>{const closed=writingArea.classList.toggle('hide');handwriting.textContent=closed?'✍️ Mở bảng viết tay':'Thu gọn bảng viết tay'};
  erase.onclick=()=>{if(ctx)ctx.clearRect(0,0,canvas.width,canvas.height)};
  renderQuestion();body.append(panel);
