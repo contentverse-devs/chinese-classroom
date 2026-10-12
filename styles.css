@@ -164,3 +164,13 @@ main{max-width:1120px}
 .cc-writing-controls button{margin:0;min-height:44px}
 .cc-writing-answer{padding:13px;margin-top:12px;background:#eaf5ed;border:1px solid #b7dbc2;border-radius:9px;font-weight:650;font-size:18px;overflow-wrap:anywhere}
 @media(max-width:600px){.cc-writing-exercise{padding:12px}.cc-writing-canvas{aspect-ratio:2/1}.cc-writing-controls button{flex:1 1 140px;font-size:13px}}
+
+/* Pinyin IME offline */
+.cc-ime{margin:10px 0 15px;padding:12px;border:1px solid #c7d9f0;background:#eff6ff;border-radius:12px}
+.cc-ime label{display:block;font-weight:700;font-size:14px;margin-bottom:7px}
+.cc-ime input{width:100%;border:1px solid #b8cce5;border-radius:9px;padding:11px;font:inherit;font-size:17px;background:#fff;box-sizing:border-box}
+.cc-ime-preview{padding:9px 0;font-size:21px;min-height:24px;overflow-wrap:anywhere;color:#173a67}
+.cc-ime-suggestions{display:flex;flex-wrap:wrap;gap:6px}
+.cc-ime-suggestions button{margin:0;padding:7px 10px;min-height:38px!important;background:#fff;color:#155bb0;border:1px solid #a9c5e8;font-size:15px}
+.cc-ime-controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.cc-ime-controls button{margin:0;font-size:14px}
+.cc-ime-note{font-size:12px;color:#53657b;margin:8px 0 0}
