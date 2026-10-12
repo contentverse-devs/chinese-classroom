@@ -2876,5 +2876,1032 @@ window.CC_LESSONS = [
         "pinyin": "Rúguǒ zhè jiàn yīfu de dàxiǎo hé yánsè dōu héshì, érqiě jiàgé piányi yì diǎn, wǒ jiù mǎi zhè jiàn yīfu."
       }
     ]
+  },
+  {
+    "id": "hsk2-sieu-thi-mua-hoa-qua-gia-tien-v3",
+    "title": "Đi siêu thị – Mua trái cây và hỏi giá",
+    "description": "Bài học giao tiếp thực tế trình độ HSK 2 về đi siêu thị mua trái cây. Học viên luyện cách nói muốn đi siêu thị, tìm hàng hóa, hỏi giá, chọn số lượng và thanh toán. Bài học gồm 7 bước phát triển câu, 3 từ trọng tâm được lặp lại tự nhiên, 10 từ vựng bổ trợ, 8 lượt hội thoại, 5 bài tập củng cố và 10 câu luyện dịch Việt – Trung từ dễ đến khó.",
+    "level": "HSK 2",
+    "category": "Mua sắm & dịch vụ",
+    "publishStatus": "published",
+    "focusWords": [
+      {
+        "han": "超市",
+        "pinyin": "chāoshì",
+        "vi": "siêu thị"
+      },
+      {
+        "han": "买",
+        "pinyin": "mǎi",
+        "vi": "mua"
+      },
+      {
+        "han": "水果",
+        "pinyin": "shuǐguǒ",
+        "vi": "trái cây"
+      }
+    ],
+    "vocabulary": [
+      {
+        "han": "去",
+        "pinyin": "qù",
+        "vi": "đi, đến"
+      },
+      {
+        "han": "想",
+        "pinyin": "xiǎng",
+        "vi": "muốn"
+      },
+      {
+        "han": "苹果",
+        "pinyin": "píngguǒ",
+        "vi": "quả táo"
+      },
+      {
+        "han": "香蕉",
+        "pinyin": "xiāngjiāo",
+        "vi": "quả chuối"
+      },
+      {
+        "han": "多少钱",
+        "pinyin": "duōshao qián",
+        "vi": "bao nhiêu tiền"
+      },
+      {
+        "han": "斤",
+        "pinyin": "jīn",
+        "vi": "đơn vị cân Trung Quốc, bằng 500 gam"
+      },
+      {
+        "han": "便宜",
+        "pinyin": "piányi",
+        "vi": "rẻ"
+      },
+      {
+        "han": "这里",
+        "pinyin": "zhèlǐ",
+        "vi": "ở đây"
+      },
+      {
+        "han": "一起",
+        "pinyin": "yìqǐ",
+        "vi": "cùng nhau"
+      },
+      {
+        "han": "一共",
+        "pinyin": "yígòng",
+        "vi": "tổng cộng"
+      }
+    ],
+    "steps": [
+      {
+        "han": "我去超市。",
+        "pinyin": "wǒ qù chāoshì.",
+        "vi": "Tôi đi siêu thị.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          }
+        ],
+        "added": [
+          "我",
+          "去",
+          "超市"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "đi"
+          },
+          {
+            "text": "siêu thị."
+          }
+        ]
+      },
+      {
+        "han": "我想去超市。",
+        "pinyin": "wǒ xiǎng qù chāoshì.",
+        "vi": "Tôi muốn đi siêu thị.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          }
+        ],
+        "added": [
+          "想"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn"
+          },
+          {
+            "text": "đi"
+          },
+          {
+            "text": "siêu thị."
+          }
+        ]
+      },
+      {
+        "han": "我想去超市买水果。",
+        "pinyin": "wǒ xiǎng qù chāoshì mǎi shuǐguǒ.",
+        "vi": "Tôi muốn đi siêu thị mua trái cây.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "水果",
+            "pinyin": "shuǐguǒ",
+            "vi": "trái cây"
+          }
+        ],
+        "added": [
+          "买",
+          "水果"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn đi"
+          },
+          {
+            "text": "siêu thị"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "trái cây."
+          }
+        ]
+      },
+      {
+        "han": "我想去超市买苹果。",
+        "pinyin": "wǒ xiǎng qù chāoshì mǎi píngguǒ.",
+        "vi": "Tôi muốn đi siêu thị mua táo.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          }
+        ],
+        "added": [
+          "苹果"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn đi"
+          },
+          {
+            "text": "siêu thị"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "táo."
+          }
+        ]
+      },
+      {
+        "han": "我想去超市买苹果和香蕉。",
+        "pinyin": "wǒ xiǎng qù chāoshì mǎi píngguǒ hé xiāngjiāo.",
+        "vi": "Tôi muốn đi siêu thị mua táo và chuối.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "và"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          }
+        ],
+        "added": [
+          "和",
+          "香蕉"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn đi"
+          },
+          {
+            "text": "siêu thị"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "táo"
+          },
+          {
+            "text": "và"
+          },
+          {
+            "text": "chuối."
+          }
+        ]
+      },
+      {
+        "han": "我想去超市买一斤苹果和一斤香蕉。",
+        "pinyin": "wǒ xiǎng qù chāoshì mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo.",
+        "vi": "Tôi muốn đi siêu thị mua nửa ký táo và nửa ký chuối.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "và"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          }
+        ],
+        "added": [
+          "一",
+          "斤"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn đi"
+          },
+          {
+            "text": "siêu thị"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "nửa ký táo"
+          },
+          {
+            "text": "và"
+          },
+          {
+            "text": "nửa ký chuối."
+          }
+        ]
+      },
+      {
+        "han": "今天我想和妈妈一起去超市买一斤苹果和一斤香蕉。",
+        "pinyin": "jīntiān wǒ xiǎng hé māma yìqǐ qù chāoshì mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo.",
+        "vi": "Hôm nay tôi muốn cùng mẹ đi siêu thị mua nửa ký táo và nửa ký chuối.",
+        "tokens": [
+          {
+            "han": "今天",
+            "pinyin": "jīntiān",
+            "vi": "hôm nay"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "cùng, với"
+          },
+          {
+            "han": "妈妈",
+            "pinyin": "māma",
+            "vi": "mẹ"
+          },
+          {
+            "han": "一起",
+            "pinyin": "yìqǐ",
+            "vi": "cùng nhau"
+          },
+          {
+            "han": "去",
+            "pinyin": "qù",
+            "vi": "đi"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "và"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          }
+        ],
+        "added": [
+          "今天",
+          "妈妈",
+          "一起"
+        ],
+        "viParts": [
+          {
+            "text": "Hôm nay"
+          },
+          {
+            "text": "tôi muốn"
+          },
+          {
+            "text": "cùng mẹ"
+          },
+          {
+            "text": "đi siêu thị"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "nửa ký táo"
+          },
+          {
+            "text": "và"
+          },
+          {
+            "text": "nửa ký chuối."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "han": "你好！这里是超市吗？",
+        "pinyin": "nǐ hǎo! zhèlǐ shì chāoshì ma?",
+        "vi": "Xin chào! Đây có phải là siêu thị không?",
+        "tokens": [
+          {
+            "han": "你好",
+            "pinyin": "nǐ hǎo",
+            "vi": "xin chào"
+          },
+          {
+            "han": "这里",
+            "pinyin": "zhèlǐ",
+            "vi": "ở đây"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "là"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "吗",
+            "pinyin": "ma",
+            "vi": "trợ từ nghi vấn"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "是的，这里是超市。你想买什么？",
+        "pinyin": "shì de, zhèlǐ shì chāoshì. nǐ xiǎng mǎi shénme?",
+        "vi": "Đúng vậy, đây là siêu thị. Bạn muốn mua gì?",
+        "tokens": [
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "đúng, là"
+          },
+          {
+            "han": "的",
+            "pinyin": "de",
+            "vi": "trợ từ"
+          },
+          {
+            "han": "这里",
+            "pinyin": "zhèlǐ",
+            "vi": "ở đây"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "là"
+          },
+          {
+            "han": "超市",
+            "pinyin": "chāoshì",
+            "vi": "siêu thị"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "什么",
+            "pinyin": "shénme",
+            "vi": "gì"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "我想买水果。苹果在哪里？",
+        "pinyin": "wǒ xiǎng mǎi shuǐguǒ. píngguǒ zài nǎlǐ?",
+        "vi": "Tôi muốn mua trái cây. Táo ở đâu?",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "水果",
+            "pinyin": "shuǐguǒ",
+            "vi": "trái cây"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "在",
+            "pinyin": "zài",
+            "vi": "ở"
+          },
+          {
+            "han": "哪里",
+            "pinyin": "nǎlǐ",
+            "vi": "đâu"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "苹果在这里，香蕉也在这里。",
+        "pinyin": "píngguǒ zài zhèlǐ, xiāngjiāo yě zài zhèlǐ.",
+        "vi": "Táo ở đây, chuối cũng ở đây.",
+        "tokens": [
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "在",
+            "pinyin": "zài",
+            "vi": "ở"
+          },
+          {
+            "han": "这里",
+            "pinyin": "zhèlǐ",
+            "vi": "đây"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          },
+          {
+            "han": "也",
+            "pinyin": "yě",
+            "vi": "cũng"
+          },
+          {
+            "han": "在",
+            "pinyin": "zài",
+            "vi": "ở"
+          },
+          {
+            "han": "这里",
+            "pinyin": "zhèlǐ",
+            "vi": "đây"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "苹果多少钱一斤？",
+        "pinyin": "píngguǒ duōshao qián yì jīn?",
+        "vi": "Táo bao nhiêu tiền một cân Trung Quốc?",
+        "tokens": [
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "多少",
+            "pinyin": "duōshao",
+            "vi": "bao nhiêu"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "苹果一斤六块钱，香蕉一斤四块钱。",
+        "pinyin": "píngguǒ yì jīn liù kuài qián, xiāngjiāo yì jīn sì kuài qián.",
+        "vi": "Táo 6 tệ một cân Trung Quốc, chuối 4 tệ một cân Trung Quốc.",
+        "tokens": [
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "六",
+            "pinyin": "liù",
+            "vi": "sáu"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "四",
+            "pinyin": "sì",
+            "vi": "bốn"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "不贵，很便宜！我买一斤苹果和一斤香蕉。",
+        "pinyin": "bú guì, hěn piányi! wǒ mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo.",
+        "vi": "Không đắt, rất rẻ! Tôi mua nửa ký táo và nửa ký chuối.",
+        "tokens": [
+          {
+            "han": "不",
+            "pinyin": "bú",
+            "vi": "không"
+          },
+          {
+            "han": "贵",
+            "pinyin": "guì",
+            "vi": "đắt"
+          },
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "便宜",
+            "pinyin": "piányi",
+            "vi": "rẻ"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "苹果",
+            "pinyin": "píngguǒ",
+            "vi": "táo"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "và"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "斤",
+            "pinyin": "jīn",
+            "vi": "cân Trung Quốc, 500 gam"
+          },
+          {
+            "han": "香蕉",
+            "pinyin": "xiāngjiāo",
+            "vi": "chuối"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "好的，一共十块钱。谢谢！",
+        "pinyin": "hǎo de, yígòng shí kuài qián. xièxie!",
+        "vi": "Vâng, tổng cộng 10 tệ. Cảm ơn!",
+        "tokens": [
+          {
+            "han": "好",
+            "pinyin": "hǎo",
+            "vi": "được"
+          },
+          {
+            "han": "的",
+            "pinyin": "de",
+            "vi": "trợ từ"
+          },
+          {
+            "han": "一共",
+            "pinyin": "yígòng",
+            "vi": "tổng cộng"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "谢谢",
+            "pinyin": "xièxie",
+            "vi": "cảm ơn"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Dịch sang tiếng Trung: Tôi muốn đi siêu thị.",
+        "answer": "我想去超市。"
+      },
+      {
+        "question": "Điền từ còn thiếu: 我想去超市买____。 (Tôi muốn đi siêu thị mua trái cây.)",
+        "answer": "水果"
+      },
+      {
+        "question": "Sắp xếp thành câu đúng: 苹果 / 买 / 我 / 想",
+        "answer": "我想买苹果。"
+      },
+      {
+        "question": "Dịch sang tiếng Trung: Táo bao nhiêu tiền một cân Trung Quốc?",
+        "answer": "苹果多少钱一斤？"
+      },
+      {
+        "question": "Dịch sang tiếng Trung: Hôm nay tôi muốn cùng mẹ đi siêu thị mua nửa ký táo và nửa ký chuối.",
+        "answer": "今天我想和妈妈一起去超市买一斤苹果和一斤香蕉。"
+      }
+    ],
+    "practiceQuestions": [
+      {
+        "vi": "Tôi đi siêu thị.",
+        "han": "我去超市。",
+        "pinyin": "Wǒ qù chāoshì."
+      },
+      {
+        "vi": "Tôi muốn mua trái cây.",
+        "han": "我想买水果。",
+        "pinyin": "Wǒ xiǎng mǎi shuǐguǒ."
+      },
+      {
+        "vi": "Tôi muốn đi siêu thị.",
+        "han": "我想去超市。",
+        "pinyin": "Wǒ xiǎng qù chāoshì."
+      },
+      {
+        "vi": "Tôi đi siêu thị mua táo.",
+        "han": "我去超市买苹果。",
+        "pinyin": "Wǒ qù chāoshì mǎi píngguǒ."
+      },
+      {
+        "vi": "Táo ở đâu?",
+        "han": "苹果在哪里？",
+        "pinyin": "Píngguǒ zài nǎlǐ?"
+      },
+      {
+        "vi": "Tôi muốn mua táo và chuối.",
+        "han": "我想买苹果和香蕉。",
+        "pinyin": "Wǒ xiǎng mǎi píngguǒ hé xiāngjiāo."
+      },
+      {
+        "vi": "Táo bao nhiêu tiền một cân Trung Quốc?",
+        "han": "苹果多少钱一斤？",
+        "pinyin": "Píngguǒ duōshao qián yì jīn?"
+      },
+      {
+        "vi": "Tôi muốn mua nửa ký táo và nửa ký chuối.",
+        "han": "我想买一斤苹果和一斤香蕉。",
+        "pinyin": "Wǒ xiǎng mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo."
+      },
+      {
+        "vi": "Hôm nay tôi muốn cùng mẹ đi siêu thị mua trái cây.",
+        "han": "今天我想和妈妈一起去超市买水果。",
+        "pinyin": "Jīntiān wǒ xiǎng hé māma yìqǐ qù chāoshì mǎi shuǐguǒ."
+      },
+      {
+        "vi": "Hôm nay tôi muốn cùng mẹ đi siêu thị mua nửa ký táo và nửa ký chuối, tổng cộng mười tệ.",
+        "han": "今天我想和妈妈一起去超市买一斤苹果和一斤香蕉，一共十块钱。",
+        "pinyin": "Jīntiān wǒ xiǎng hé māma yìqǐ qù chāoshì mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo, yígòng shí kuài qián."
+      }
+    ]
   }
 ];
