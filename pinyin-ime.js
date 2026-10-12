@@ -96,21 +96,28 @@ function attach(panel,field){
  .cc-ime-suggestions button[aria-pressed="true"]{background:#1769c2;color:#fff}
  .cc-ime-note{font-size:.87em}
  `;box.append(style);
- let parts=[],selected=[],active=0;
+ let parts=[],selected=[],active=0,page=0;
  function show(){
   preview.textContent=parts.length?parts.map((p,i)=>selected[i]||p.key).join(''):'Chữ Hán sẽ xuất hiện tại đây';
   segments.replaceChildren();choices.replaceChildren();
   parts.forEach((p,i)=>{
    const b=document.createElement('button');b.type='button';b.textContent=`${p.key} → ${selected[i]||'?'}`;
-   b.setAttribute('aria-pressed',String(i===active));b.onclick=()=>{active=i;show()};segments.append(b);
+   b.setAttribute('aria-pressed',String(i===active));b.onclick=()=>{active=i;page=0;show()};segments.append(b);
   });
   const p=parts[active];
   if(p&&p.values.length){
-   p.values.forEach((value,i)=>{
-    const b=document.createElement('button');b.type='button';b.textContent=(i<9?`${i+1}. `:'')+value;
+   const pages=Math.ceil(p.values.length/9);
+   if(page>=pages)page=0;
+   p.values.slice(page*9,(page+1)*9).forEach((value,i)=>{
+    const b=document.createElement('button');b.type='button';b.textContent=`${i+1}. ${value}`;
     b.setAttribute('aria-pressed',String(selected[active]===value));
-    b.onclick=()=>{selected[active]=value;show()};choices.append(b);
+    b.onclick=()=>{selected[active]=value;remember(p.key,value);show()};choices.append(b);
    });
+   if(pages>1){
+    const prev=document.createElement('button');prev.type='button';prev.textContent='‹ Trang trước';prev.disabled=page===0;prev.onclick=()=>{page--;show()};choices.append(prev);
+    const info=document.createElement('span');info.textContent=`Trang ${page+1}/${pages}`;choices.append(info);
+    const next=document.createElement('button');next.type='button';next.textContent='Trang sau ›';next.disabled=page===pages-1;next.onclick=()=>{page++;show()};choices.append(next);
+   }
   }else if(p){const msg=document.createElement('span');msg.textContent='Chưa có chữ Hán cho âm tiết này.';choices.append(msg)}
   insert.disabled=!parts.length||parts.some(p=>!p.values.length);
  }
@@ -118,6 +125,10 @@ function attach(panel,field){
  input.addEventListener('input',()=>{active=0;update()});
  input.addEventListener('keydown',e=>{
   if(e.key==='Enter'){e.preventDefault();insert.click()}
+  else if(e.key==='PageDown'&&parts[active]?.values.length>(page+1)*9){e.preventDefault();page++;show()}
+  else if(e.key==='PageUp'&&page>0){e.preventDefault();page--;show()}
+  else if(e.key==='ArrowRight'&&active<parts.length-1){e.preventDefault();active++;page=0;show()}
+  else if(e.key==='ArrowLeft'&&active>0){e.preventDefault();active--;page=0;show()}
   else if(/^[1-9]$/.test(e.key)&&parts[active]?.values[page*9+Number(e.key)-1]){
    e.preventDefault();selected[active]=parts[active].values[page*9+Number(e.key)-1];remember(parts[active].key,selected[active]);
    if(active<parts.length-1)active++;page=0;show();
