@@ -2,7 +2,7 @@
 window.CC_LESSONS = [
   {
     "id": "hsk1-greetings",
-    "level": "HSK 1",
+    "level": "HSK 3",
     "title": "Chào hỏi và giới thiệu",
     "description": "你好 · 我叫 · 你好吗",
     "items": [
@@ -39,7 +39,118 @@ window.CC_LESSONS = [
         "vi": "Xin chào"
       }
     ],
-    "publishStatus": "published"
+    "publishStatus": "published",
+    "category": "Giao tiếp hằng ngày",
+    "vocabulary": [],
+    "exercises": [],
+    "steps": [
+      {
+        "han": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "vi": "Xin chào!",
+        "tokens": [
+          {
+            "han": "你好！",
+            "pinyin": "Nǐ hǎo!",
+            "vi": "Xin chào!"
+          }
+        ],
+        "added": [
+          "你好！"
+        ],
+        "viParts": [
+          {
+            "text": "Xin chào!",
+            "new": true
+          }
+        ]
+      },
+      {
+        "han": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "vi": "Bạn khỏe không?",
+        "tokens": [
+          {
+            "han": "你好吗？",
+            "pinyin": "Nǐ hǎo ma?",
+            "vi": "Bạn khỏe không?"
+          }
+        ],
+        "added": [
+          "你好吗？"
+        ],
+        "viParts": [
+          {
+            "text": "Bạn khỏe không?",
+            "new": true
+          }
+        ]
+      },
+      {
+        "han": "我很好。",
+        "pinyin": "Wǒ hěn hǎo.",
+        "vi": "Tôi rất khỏe.",
+        "tokens": [
+          {
+            "han": "我很好。",
+            "pinyin": "Wǒ hěn hǎo.",
+            "vi": "Tôi rất khỏe."
+          }
+        ],
+        "added": [
+          "我很好。"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi rất khỏe.",
+            "new": true
+          }
+        ]
+      },
+      {
+        "han": "我叫小明。",
+        "pinyin": "Wǒ jiào Xiǎomíng.",
+        "vi": "Tôi tên là Tiểu Minh.",
+        "tokens": [
+          {
+            "han": "我叫小明。",
+            "pinyin": "Wǒ jiào Xiǎomíng.",
+            "vi": "Tôi tên là Tiểu Minh."
+          }
+        ],
+        "added": [
+          "我叫小明。"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi tên là Tiểu Minh.",
+            "new": true
+          }
+        ]
+      },
+      {
+        "han": "很高兴认识你。",
+        "pinyin": "Hěn gāoxìng rènshi nǐ.",
+        "vi": "Rất vui được biết bạn.",
+        "tokens": [
+          {
+            "han": "很高兴认识你。",
+            "pinyin": "Hěn gāoxìng rènshi nǐ.",
+            "vi": "Rất vui được biết bạn."
+          }
+        ],
+        "added": [
+          "很高兴认识你。"
+        ],
+        "viParts": [
+          {
+            "text": "Rất vui được biết bạn.",
+            "new": true
+          }
+        ]
+      }
+    ],
+    "dialogue": []
   },
   {
     "id": "hsk1-family",
@@ -1707,6 +1818,1062 @@ window.CC_LESSONS = [
       {
         "question": "Dịch sang tiếng Trung: Nếu rẻ hơn một chút thì tôi sẽ mua bộ quần áo này.",
         "answer": "如果便宜一点，我就买这件衣服。"
+      }
+    ]
+  },
+  {
+    "id": "hsk3-mua-quan-ao-luyen-giao-tiep-v2",
+    "title": "Mua quần áo – Chọn đồ, thử đồ và thanh toán",
+    "description": "Bài học giao tiếp tiếng Trung trình độ HSK 3 về mua quần áo tại cửa hàng. Học viên luyện cách chọn trang phục, hỏi thử đồ, nhận xét kích cỡ, hỏi giá và quyết định mua. Bài học gồm 7 bước phát triển câu từ đơn giản đến phức tạp, hội thoại thực tế giữa khách hàng và nhân viên, 5 bài tập củng cố và 10 câu luyện dịch Việt – Trung theo độ khó tăng dần. Ba từ trọng tâm là 衣服, 试 và 合适.",
+    "level": "HSK 3",
+    "category": "Mua sắm & dịch vụ",
+    "publishStatus": "published",
+    "focusWords": [
+      {
+        "han": "衣服",
+        "pinyin": "yīfu",
+        "vi": "quần áo, trang phục"
+      },
+      {
+        "han": "试",
+        "pinyin": "shì",
+        "vi": "thử, mặc thử"
+      },
+      {
+        "han": "合适",
+        "pinyin": "héshì",
+        "vi": "vừa vặn, phù hợp"
+      }
+    ],
+    "vocabulary": [
+      {
+        "han": "买",
+        "pinyin": "mǎi",
+        "vi": "mua"
+      },
+      {
+        "han": "想",
+        "pinyin": "xiǎng",
+        "vi": "muốn"
+      },
+      {
+        "han": "件",
+        "pinyin": "jiàn",
+        "vi": "lượng từ cho trang phục"
+      },
+      {
+        "han": "可以",
+        "pinyin": "kěyǐ",
+        "vi": "có thể, được phép"
+      },
+      {
+        "han": "大小",
+        "pinyin": "dàxiǎo",
+        "vi": "kích cỡ"
+      },
+      {
+        "han": "颜色",
+        "pinyin": "yánsè",
+        "vi": "màu sắc"
+      },
+      {
+        "han": "觉得",
+        "pinyin": "juéde",
+        "vi": "cảm thấy, cho rằng"
+      },
+      {
+        "han": "多少钱",
+        "pinyin": "duōshao qián",
+        "vi": "bao nhiêu tiền"
+      },
+      {
+        "han": "便宜",
+        "pinyin": "piányi",
+        "vi": "rẻ"
+      },
+      {
+        "han": "如果",
+        "pinyin": "rúguǒ",
+        "vi": "nếu"
+      }
+    ],
+    "steps": [
+      {
+        "han": "我买衣服。",
+        "pinyin": "wǒ mǎi yīfu.",
+        "vi": "Tôi mua quần áo.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "quần áo"
+          }
+        ],
+        "added": [
+          "我",
+          "买",
+          "衣服"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "quần áo."
+          }
+        ]
+      },
+      {
+        "han": "我想买衣服。",
+        "pinyin": "wǒ xiǎng mǎi yīfu.",
+        "vi": "Tôi muốn mua quần áo.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "quần áo"
+          }
+        ],
+        "added": [
+          "想"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn"
+          },
+          {
+            "text": "mua"
+          },
+          {
+            "text": "quần áo."
+          }
+        ]
+      },
+      {
+        "han": "我想买这件衣服。",
+        "pinyin": "wǒ xiǎng mǎi zhè jiàn yīfu.",
+        "vi": "Tôi muốn mua chiếc áo này.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo, trang phục"
+          }
+        ],
+        "added": [
+          "这",
+          "件"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn mua"
+          },
+          {
+            "text": "chiếc áo này."
+          }
+        ]
+      },
+      {
+        "han": "我想试这件衣服。",
+        "pinyin": "wǒ xiǎng shì zhè jiàn yīfu.",
+        "vi": "Tôi muốn thử chiếc áo này.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          }
+        ],
+        "added": [
+          "试"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "muốn thử"
+          },
+          {
+            "text": "chiếc áo này."
+          }
+        ]
+      },
+      {
+        "han": "我可以试这件衣服吗？",
+        "pinyin": "wǒ kěyǐ shì zhè jiàn yīfu ma?",
+        "vi": "Tôi có thể thử chiếc áo này không?",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "可以",
+            "pinyin": "kěyǐ",
+            "vi": "có thể"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "吗",
+            "pinyin": "ma",
+            "vi": "không (trợ từ nghi vấn)"
+          }
+        ],
+        "added": [
+          "可以",
+          "吗"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi"
+          },
+          {
+            "text": "có thể"
+          },
+          {
+            "text": "thử"
+          },
+          {
+            "text": "chiếc áo này"
+          },
+          {
+            "text": "không?"
+          }
+        ]
+      },
+      {
+        "han": "我试了这件衣服，觉得大小很合适。",
+        "pinyin": "wǒ shì le zhè jiàn yīfu, juéde dàxiǎo hěn héshì.",
+        "vi": "Tôi đã thử chiếc áo này và cảm thấy kích cỡ rất vừa.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "了",
+            "pinyin": "le",
+            "vi": "đã (trợ từ chỉ hoàn thành)"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "觉得",
+            "pinyin": "juéde",
+            "vi": "cảm thấy"
+          },
+          {
+            "han": "大小",
+            "pinyin": "dàxiǎo",
+            "vi": "kích cỡ"
+          },
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "vừa, phù hợp"
+          }
+        ],
+        "added": [
+          "了",
+          "觉得",
+          "大小",
+          "很",
+          "合适"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi đã thử"
+          },
+          {
+            "text": "chiếc áo này"
+          },
+          {
+            "text": "và cảm thấy"
+          },
+          {
+            "text": "kích cỡ"
+          },
+          {
+            "text": "rất vừa."
+          }
+        ]
+      },
+      {
+        "han": "如果这件衣服的大小和颜色都合适，我就买这件衣服。",
+        "pinyin": "rúguǒ zhè jiàn yīfu de dàxiǎo hé yánsè dōu héshì, wǒ jiù mǎi zhè jiàn yīfu.",
+        "vi": "Nếu kích cỡ và màu sắc của chiếc áo này đều phù hợp thì tôi sẽ mua chiếc áo này.",
+        "tokens": [
+          {
+            "han": "如果",
+            "pinyin": "rúguǒ",
+            "vi": "nếu"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "的",
+            "pinyin": "de",
+            "vi": "của"
+          },
+          {
+            "han": "大小",
+            "pinyin": "dàxiǎo",
+            "vi": "kích cỡ"
+          },
+          {
+            "han": "和",
+            "pinyin": "hé",
+            "vi": "và"
+          },
+          {
+            "han": "颜色",
+            "pinyin": "yánsè",
+            "vi": "màu sắc"
+          },
+          {
+            "han": "都",
+            "pinyin": "dōu",
+            "vi": "đều"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "phù hợp"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "就",
+            "pinyin": "jiù",
+            "vi": "thì, sẽ"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          }
+        ],
+        "added": [
+          "如果",
+          "的",
+          "和",
+          "颜色",
+          "都",
+          "就"
+        ],
+        "viParts": [
+          {
+            "text": "Nếu"
+          },
+          {
+            "text": "kích cỡ"
+          },
+          {
+            "text": "và màu sắc"
+          },
+          {
+            "text": "của chiếc áo này"
+          },
+          {
+            "text": "đều phù hợp"
+          },
+          {
+            "text": "thì tôi sẽ mua"
+          },
+          {
+            "text": "chiếc áo này."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "han": "你好！我想买一件衣服。",
+        "pinyin": "nǐ hǎo! wǒ xiǎng mǎi yí jiàn yīfu.",
+        "vi": "Xin chào! Tôi muốn mua một chiếc áo.",
+        "tokens": [
+          {
+            "han": "你好",
+            "pinyin": "nǐ hǎo",
+            "vi": "xin chào"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "想",
+            "pinyin": "xiǎng",
+            "vi": "muốn"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "一",
+            "pinyin": "yí",
+            "vi": "một"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "你好！你觉得这件衣服怎么样？",
+        "pinyin": "nǐ hǎo! nǐ juéde zhè jiàn yīfu zěnmeyàng?",
+        "vi": "Xin chào! Bạn thấy chiếc áo này thế nào?",
+        "tokens": [
+          {
+            "han": "你好",
+            "pinyin": "nǐ hǎo",
+            "vi": "xin chào"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "觉得",
+            "pinyin": "juéde",
+            "vi": "cảm thấy"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "怎么样",
+            "pinyin": "zěnmeyàng",
+            "vi": "thế nào"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "颜色很好看。我可以试一下这件衣服吗？",
+        "pinyin": "yánsè hěn hǎokàn. wǒ kěyǐ shì yí xià zhè jiàn yīfu ma?",
+        "vi": "Màu sắc rất đẹp. Tôi có thể thử chiếc áo này một chút không?",
+        "tokens": [
+          {
+            "han": "颜色",
+            "pinyin": "yánsè",
+            "vi": "màu sắc"
+          },
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "好看",
+            "pinyin": "hǎokàn",
+            "vi": "đẹp"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "可以",
+            "pinyin": "kěyǐ",
+            "vi": "có thể"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "一下",
+            "pinyin": "yí xià",
+            "vi": "một chút"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "吗",
+            "pinyin": "ma",
+            "vi": "không (trợ từ nghi vấn)"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "当然可以！你试一下，看看大小合适不合适。",
+        "pinyin": "dāngrán kěyǐ! nǐ shì yí xià, kànkan dàxiǎo héshì bù héshì.",
+        "vi": "Tất nhiên là được! Bạn cứ thử, xem kích cỡ có vừa không.",
+        "tokens": [
+          {
+            "han": "当然",
+            "pinyin": "dāngrán",
+            "vi": "tất nhiên"
+          },
+          {
+            "han": "可以",
+            "pinyin": "kěyǐ",
+            "vi": "có thể, được"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "一下",
+            "pinyin": "yí xià",
+            "vi": "một chút"
+          },
+          {
+            "han": "看看",
+            "pinyin": "kànkan",
+            "vi": "xem thử"
+          },
+          {
+            "han": "大小",
+            "pinyin": "dàxiǎo",
+            "vi": "kích cỡ"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "phù hợp"
+          },
+          {
+            "han": "不",
+            "pinyin": "bù",
+            "vi": "không"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "phù hợp"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "我试了，觉得这件衣服很合适。多少钱？",
+        "pinyin": "wǒ shì le, juéde zhè jiàn yīfu hěn héshì. duōshao qián?",
+        "vi": "Tôi đã thử rồi, cảm thấy chiếc áo này rất vừa. Bao nhiêu tiền?",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "试",
+            "pinyin": "shì",
+            "vi": "thử"
+          },
+          {
+            "han": "了",
+            "pinyin": "le",
+            "vi": "rồi"
+          },
+          {
+            "han": "觉得",
+            "pinyin": "juéde",
+            "vi": "cảm thấy"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "vừa"
+          },
+          {
+            "han": "多少",
+            "pinyin": "duōshao",
+            "vi": "bao nhiêu"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "这件衣服一百二十块钱。",
+        "pinyin": "zhè jiàn yīfu yì bǎi èr shí kuài qián.",
+        "vi": "Chiếc áo này giá 120 tệ.",
+        "tokens": [
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "百",
+            "pinyin": "bǎi",
+            "vi": "trăm"
+          },
+          {
+            "han": "二",
+            "pinyin": "èr",
+            "vi": "hai"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "如果便宜一点，我就买这件衣服。",
+        "pinyin": "rúguǒ piányi yì diǎn, wǒ jiù mǎi zhè jiàn yīfu.",
+        "vi": "Nếu rẻ hơn một chút thì tôi sẽ mua chiếc áo này.",
+        "tokens": [
+          {
+            "han": "如果",
+            "pinyin": "rúguǒ",
+            "vi": "nếu"
+          },
+          {
+            "han": "便宜",
+            "pinyin": "piányi",
+            "vi": "rẻ"
+          },
+          {
+            "han": "一点",
+            "pinyin": "yì diǎn",
+            "vi": "một chút"
+          },
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "就",
+            "pinyin": "jiù",
+            "vi": "thì, sẽ"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "好吧，一百块钱。这件衣服很合适，你可以买。",
+        "pinyin": "hǎo ba, yì bǎi kuài qián. zhè jiàn yīfu hěn héshì, nǐ kěyǐ mǎi.",
+        "vi": "Được thôi, 100 tệ. Chiếc áo này rất vừa, bạn có thể mua.",
+        "tokens": [
+          {
+            "han": "好",
+            "pinyin": "hǎo",
+            "vi": "được"
+          },
+          {
+            "han": "吧",
+            "pinyin": "ba",
+            "vi": "thôi (trợ từ ngữ khí)"
+          },
+          {
+            "han": "一",
+            "pinyin": "yì",
+            "vi": "một"
+          },
+          {
+            "han": "百",
+            "pinyin": "bǎi",
+            "vi": "trăm"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "件",
+            "pinyin": "jiàn",
+            "vi": "lượng từ cho trang phục"
+          },
+          {
+            "han": "衣服",
+            "pinyin": "yīfu",
+            "vi": "áo"
+          },
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "合适",
+            "pinyin": "héshì",
+            "vi": "vừa"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "可以",
+            "pinyin": "kěyǐ",
+            "vi": "có thể"
+          },
+          {
+            "han": "买",
+            "pinyin": "mǎi",
+            "vi": "mua"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Dịch sang tiếng Trung: Tôi muốn mua chiếc áo này.",
+        "answer": "我想买这件衣服。"
+      },
+      {
+        "question": "Dịch sang tiếng Trung: Tôi có thể thử chiếc áo này không?",
+        "answer": "我可以试这件衣服吗？"
+      },
+      {
+        "question": "Điền từ còn thiếu: 我觉得这件衣服很____。 (Tôi cảm thấy chiếc áo này rất vừa.)",
+        "answer": "合适"
+      },
+      {
+        "question": "Sắp xếp các từ thành câu đúng: 衣服 / 这件 / 我 / 试 / 想",
+        "answer": "我想试这件衣服。"
+      },
+      {
+        "question": "Dịch sang tiếng Trung: Nếu chiếc áo này rẻ hơn một chút thì tôi sẽ mua.",
+        "answer": "如果这件衣服便宜一点，我就买。"
+      }
+    ],
+    "practiceQuestions": [
+      {
+        "vi": "Tôi mua quần áo.",
+        "han": "我买衣服。",
+        "pinyin": "Wǒ mǎi yīfu."
+      },
+      {
+        "vi": "Tôi muốn mua quần áo.",
+        "han": "我想买衣服。",
+        "pinyin": "Wǒ xiǎng mǎi yīfu."
+      },
+      {
+        "vi": "Tôi muốn mua chiếc áo này.",
+        "han": "我想买这件衣服。",
+        "pinyin": "Wǒ xiǎng mǎi zhè jiàn yīfu."
+      },
+      {
+        "vi": "Tôi muốn thử chiếc áo này.",
+        "han": "我想试这件衣服。",
+        "pinyin": "Wǒ xiǎng shì zhè jiàn yīfu."
+      },
+      {
+        "vi": "Tôi có thể thử chiếc áo này không?",
+        "han": "我可以试这件衣服吗？",
+        "pinyin": "Wǒ kěyǐ shì zhè jiàn yīfu ma?"
+      },
+      {
+        "vi": "Chiếc áo này có vừa không?",
+        "han": "这件衣服合适不合适？",
+        "pinyin": "Zhè jiàn yīfu héshì bù héshì?"
+      },
+      {
+        "vi": "Tôi cảm thấy chiếc áo này rất vừa.",
+        "han": "我觉得这件衣服很合适。",
+        "pinyin": "Wǒ juéde zhè jiàn yīfu hěn héshì."
+      },
+      {
+        "vi": "Tôi đã thử chiếc áo này, kích cỡ rất vừa.",
+        "han": "我试了这件衣服，大小很合适。",
+        "pinyin": "Wǒ shì le zhè jiàn yīfu, dàxiǎo hěn héshì."
+      },
+      {
+        "vi": "Tôi cảm thấy màu sắc của chiếc áo này rất đẹp, nhưng giá hơi đắt.",
+        "han": "我觉得这件衣服的颜色很好看，但是价格有点儿贵。",
+        "pinyin": "Wǒ juéde zhè jiàn yīfu de yánsè hěn hǎokàn, dànshì jiàgé yǒudiǎnr guì."
+      },
+      {
+        "vi": "Nếu kích cỡ và màu sắc của chiếc áo này đều phù hợp, và giá rẻ hơn một chút, thì tôi sẽ mua chiếc áo này.",
+        "han": "如果这件衣服的大小和颜色都合适，而且价格便宜一点，我就买这件衣服。",
+        "pinyin": "Rúguǒ zhè jiàn yīfu de dàxiǎo hé yánsè dōu héshì, érqiě jiàgé piányi yì diǎn, wǒ jiù mǎi zhè jiàn yīfu."
       }
     ]
   }
