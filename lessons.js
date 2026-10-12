@@ -3903,5 +3903,1351 @@ window.CC_LESSONS = [
         "pinyin": "Jīntiān wǒ xiǎng hé māma yìqǐ qù chāoshì mǎi yì jīn píngguǒ hé yì jīn xiāngjiāo, yígòng shí kuài qián."
       }
     ]
+  },
+  {
+    "id": "hsk1-so-dem-tu-0-den-100-v1",
+    "title": "Số đếm từ 0 đến 100 – Học số và giao tiếp thực tế",
+    "description": "Bài học tiếng Trung trình độ HSK 1 giúp học viên nhận biết, đọc, viết và sử dụng các số từ 0 đến 100. Nội dung gồm cách đọc số 0 đến 10, ghép số từ 11 đến 19, các số tròn chục từ 20 đến 90, cách tạo số có hai chữ số và số 100. Qua 15 bước phát triển câu, học viên luyện nói tuổi, số lượng đồ vật và giá tiền. Bài học có 8 lượt hội thoại, 5 bài tập củng cố và 10 câu luyện dịch Việt – Trung theo độ khó tăng dần. Lưu ý cách đọc số 2 bằng 二 hoặc 两 tùy ngữ cảnh và biến điệu của 一 trong lời nói.",
+    "level": "HSK 1",
+    "category": "Từ vựng & ngữ pháp",
+    "publishStatus": "published",
+    "focusWords": [
+      {
+        "han": "十",
+        "pinyin": "shí",
+        "vi": "mười"
+      },
+      {
+        "han": "二十",
+        "pinyin": "èr shí",
+        "vi": "hai mươi"
+      },
+      {
+        "han": "一百",
+        "pinyin": "yì bǎi",
+        "vi": "một trăm"
+      }
+    ],
+    "vocabulary": [
+      {
+        "han": "零",
+        "pinyin": "líng",
+        "vi": "số không"
+      },
+      {
+        "han": "一",
+        "pinyin": "yī",
+        "vi": "số một"
+      },
+      {
+        "han": "二",
+        "pinyin": "èr",
+        "vi": "số hai"
+      },
+      {
+        "han": "三",
+        "pinyin": "sān",
+        "vi": "số ba"
+      },
+      {
+        "han": "四",
+        "pinyin": "sì",
+        "vi": "số bốn"
+      },
+      {
+        "han": "五",
+        "pinyin": "wǔ",
+        "vi": "số năm"
+      },
+      {
+        "han": "六",
+        "pinyin": "liù",
+        "vi": "số sáu"
+      },
+      {
+        "han": "七",
+        "pinyin": "qī",
+        "vi": "số bảy"
+      },
+      {
+        "han": "八",
+        "pinyin": "bā",
+        "vi": "số tám"
+      },
+      {
+        "han": "九",
+        "pinyin": "jiǔ",
+        "vi": "số chín"
+      }
+    ],
+    "steps": [
+      {
+        "han": "这是零。",
+        "pinyin": "zhè shì líng.",
+        "vi": "Đây là số không.",
+        "tokens": [
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "đây"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "là"
+          },
+          {
+            "han": "零",
+            "pinyin": "líng",
+            "vi": "số không"
+          }
+        ],
+        "added": [
+          "这",
+          "是",
+          "零"
+        ],
+        "viParts": [
+          {
+            "text": "Đây"
+          },
+          {
+            "text": "là"
+          },
+          {
+            "text": "số không."
+          }
+        ]
+      },
+      {
+        "han": "这是一。",
+        "pinyin": "zhè shì yī.",
+        "vi": "Đây là số một.",
+        "tokens": [
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "đây"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "là"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "số một"
+          }
+        ],
+        "added": [
+          "一"
+        ],
+        "viParts": [
+          {
+            "text": "Đây"
+          },
+          {
+            "text": "là"
+          },
+          {
+            "text": "số một."
+          }
+        ]
+      },
+      {
+        "han": "这是一、二、三。",
+        "pinyin": "zhè shì yī, èr, sān.",
+        "vi": "Đây là các số một, hai, ba.",
+        "tokens": [
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "đây"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "là"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "二",
+            "pinyin": "èr",
+            "vi": "hai"
+          },
+          {
+            "han": "三",
+            "pinyin": "sān",
+            "vi": "ba"
+          }
+        ],
+        "added": [
+          "二",
+          "三"
+        ],
+        "viParts": [
+          {
+            "text": "Đây là"
+          },
+          {
+            "text": "các số"
+          },
+          {
+            "text": "một,"
+          },
+          {
+            "text": "hai,"
+          },
+          {
+            "text": "ba."
+          }
+        ]
+      },
+      {
+        "han": "我会数一、二、三、四、五。",
+        "pinyin": "wǒ huì shǔ yī, èr, sān, sì, wǔ.",
+        "vi": "Tôi biết đếm một, hai, ba, bốn, năm.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "会",
+            "pinyin": "huì",
+            "vi": "biết, có khả năng"
+          },
+          {
+            "han": "数",
+            "pinyin": "shǔ",
+            "vi": "đếm"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "二",
+            "pinyin": "èr",
+            "vi": "hai"
+          },
+          {
+            "han": "三",
+            "pinyin": "sān",
+            "vi": "ba"
+          },
+          {
+            "han": "四",
+            "pinyin": "sì",
+            "vi": "bốn"
+          },
+          {
+            "han": "五",
+            "pinyin": "wǔ",
+            "vi": "năm"
+          }
+        ],
+        "added": [
+          "我",
+          "会",
+          "数",
+          "四",
+          "五"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi biết đếm"
+          },
+          {
+            "text": "một,"
+          },
+          {
+            "text": "hai,"
+          },
+          {
+            "text": "ba,"
+          },
+          {
+            "text": "bốn,"
+          },
+          {
+            "text": "năm."
+          }
+        ]
+      },
+      {
+        "han": "我会数六、七、八、九、十。",
+        "pinyin": "wǒ huì shǔ liù, qī, bā, jiǔ, shí.",
+        "vi": "Tôi biết đếm sáu, bảy, tám, chín, mười.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "会",
+            "pinyin": "huì",
+            "vi": "biết"
+          },
+          {
+            "han": "数",
+            "pinyin": "shǔ",
+            "vi": "đếm"
+          },
+          {
+            "han": "六",
+            "pinyin": "liù",
+            "vi": "sáu"
+          },
+          {
+            "han": "七",
+            "pinyin": "qī",
+            "vi": "bảy"
+          },
+          {
+            "han": "八",
+            "pinyin": "bā",
+            "vi": "tám"
+          },
+          {
+            "han": "九",
+            "pinyin": "jiǔ",
+            "vi": "chín"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          }
+        ],
+        "added": [
+          "六",
+          "七",
+          "八",
+          "九",
+          "十"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi biết đếm"
+          },
+          {
+            "text": "sáu,"
+          },
+          {
+            "text": "bảy,"
+          },
+          {
+            "text": "tám,"
+          },
+          {
+            "text": "chín,"
+          },
+          {
+            "text": "mười."
+          }
+        ]
+      },
+      {
+        "han": "十加一是十一。",
+        "pinyin": "shí jiā yī shì shí yī.",
+        "vi": "Mười cộng một bằng mười một.",
+        "tokens": [
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          },
+          {
+            "han": "加",
+            "pinyin": "jiā",
+            "vi": "cộng"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "bằng"
+          },
+          {
+            "han": "十一",
+            "pinyin": "shí yī",
+            "vi": "mười một"
+          }
+        ],
+        "added": [
+          "加",
+          "十一"
+        ],
+        "viParts": [
+          {
+            "text": "Mười"
+          },
+          {
+            "text": "cộng"
+          },
+          {
+            "text": "một"
+          },
+          {
+            "text": "bằng"
+          },
+          {
+            "text": "mười một."
+          }
+        ]
+      },
+      {
+        "han": "十一、十二、十三、十四、十五。",
+        "pinyin": "shí yī, shí èr, shí sān, shí sì, shí wǔ.",
+        "vi": "Mười một, mười hai, mười ba, mười bốn, mười lăm.",
+        "tokens": [
+          {
+            "han": "十一",
+            "pinyin": "shí yī",
+            "vi": "mười một"
+          },
+          {
+            "han": "十二",
+            "pinyin": "shí èr",
+            "vi": "mười hai"
+          },
+          {
+            "han": "十三",
+            "pinyin": "shí sān",
+            "vi": "mười ba"
+          },
+          {
+            "han": "十四",
+            "pinyin": "shí sì",
+            "vi": "mười bốn"
+          },
+          {
+            "han": "十五",
+            "pinyin": "shí wǔ",
+            "vi": "mười lăm"
+          }
+        ],
+        "added": [
+          "十二",
+          "十三",
+          "十四",
+          "十五"
+        ],
+        "viParts": [
+          {
+            "text": "Mười một,"
+          },
+          {
+            "text": "mười hai,"
+          },
+          {
+            "text": "mười ba,"
+          },
+          {
+            "text": "mười bốn,"
+          },
+          {
+            "text": "mười lăm."
+          }
+        ]
+      },
+      {
+        "han": "十六、十七、十八、十九、二十。",
+        "pinyin": "shí liù, shí qī, shí bā, shí jiǔ, èr shí.",
+        "vi": "Mười sáu, mười bảy, mười tám, mười chín, hai mươi.",
+        "tokens": [
+          {
+            "han": "十六",
+            "pinyin": "shí liù",
+            "vi": "mười sáu"
+          },
+          {
+            "han": "十七",
+            "pinyin": "shí qī",
+            "vi": "mười bảy"
+          },
+          {
+            "han": "十八",
+            "pinyin": "shí bā",
+            "vi": "mười tám"
+          },
+          {
+            "han": "十九",
+            "pinyin": "shí jiǔ",
+            "vi": "mười chín"
+          },
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          }
+        ],
+        "added": [
+          "十六",
+          "十七",
+          "十八",
+          "十九",
+          "二十"
+        ],
+        "viParts": [
+          {
+            "text": "Mười sáu,"
+          },
+          {
+            "text": "mười bảy,"
+          },
+          {
+            "text": "mười tám,"
+          },
+          {
+            "text": "mười chín,"
+          },
+          {
+            "text": "hai mươi."
+          }
+        ]
+      },
+      {
+        "han": "二十、三十、四十、五十。",
+        "pinyin": "èr shí, sān shí, sì shí, wǔ shí.",
+        "vi": "Hai mươi, ba mươi, bốn mươi, năm mươi.",
+        "tokens": [
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "三十",
+            "pinyin": "sān shí",
+            "vi": "ba mươi"
+          },
+          {
+            "han": "四十",
+            "pinyin": "sì shí",
+            "vi": "bốn mươi"
+          },
+          {
+            "han": "五十",
+            "pinyin": "wǔ shí",
+            "vi": "năm mươi"
+          }
+        ],
+        "added": [
+          "三十",
+          "四十",
+          "五十"
+        ],
+        "viParts": [
+          {
+            "text": "Hai mươi,"
+          },
+          {
+            "text": "ba mươi,"
+          },
+          {
+            "text": "bốn mươi,"
+          },
+          {
+            "text": "năm mươi."
+          }
+        ]
+      },
+      {
+        "han": "六十、七十、八十、九十。",
+        "pinyin": "liù shí, qī shí, bā shí, jiǔ shí.",
+        "vi": "Sáu mươi, bảy mươi, tám mươi, chín mươi.",
+        "tokens": [
+          {
+            "han": "六十",
+            "pinyin": "liù shí",
+            "vi": "sáu mươi"
+          },
+          {
+            "han": "七十",
+            "pinyin": "qī shí",
+            "vi": "bảy mươi"
+          },
+          {
+            "han": "八十",
+            "pinyin": "bā shí",
+            "vi": "tám mươi"
+          },
+          {
+            "han": "九十",
+            "pinyin": "jiǔ shí",
+            "vi": "chín mươi"
+          }
+        ],
+        "added": [
+          "六十",
+          "七十",
+          "八十",
+          "九十"
+        ],
+        "viParts": [
+          {
+            "text": "Sáu mươi,"
+          },
+          {
+            "text": "bảy mươi,"
+          },
+          {
+            "text": "tám mươi,"
+          },
+          {
+            "text": "chín mươi."
+          }
+        ]
+      },
+      {
+        "han": "二十加三是二十三。",
+        "pinyin": "èr shí jiā sān shì èr shí sān.",
+        "vi": "Hai mươi cộng ba bằng hai mươi ba.",
+        "tokens": [
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "加",
+            "pinyin": "jiā",
+            "vi": "cộng"
+          },
+          {
+            "han": "三",
+            "pinyin": "sān",
+            "vi": "ba"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "bằng"
+          },
+          {
+            "han": "二十三",
+            "pinyin": "èr shí sān",
+            "vi": "hai mươi ba"
+          }
+        ],
+        "added": [
+          "二十三"
+        ],
+        "viParts": [
+          {
+            "text": "Hai mươi"
+          },
+          {
+            "text": "cộng"
+          },
+          {
+            "text": "ba"
+          },
+          {
+            "text": "bằng"
+          },
+          {
+            "text": "hai mươi ba."
+          }
+        ]
+      },
+      {
+        "han": "三十五、四十八、五十九。",
+        "pinyin": "sān shí wǔ, sì shí bā, wǔ shí jiǔ.",
+        "vi": "Ba mươi lăm, bốn mươi tám, năm mươi chín.",
+        "tokens": [
+          {
+            "han": "三十五",
+            "pinyin": "sān shí wǔ",
+            "vi": "ba mươi lăm"
+          },
+          {
+            "han": "四十八",
+            "pinyin": "sì shí bā",
+            "vi": "bốn mươi tám"
+          },
+          {
+            "han": "五十九",
+            "pinyin": "wǔ shí jiǔ",
+            "vi": "năm mươi chín"
+          }
+        ],
+        "added": [
+          "三十五",
+          "四十八",
+          "五十九"
+        ],
+        "viParts": [
+          {
+            "text": "Ba mươi lăm,"
+          },
+          {
+            "text": "bốn mươi tám,"
+          },
+          {
+            "text": "năm mươi chín."
+          }
+        ]
+      },
+      {
+        "han": "六十六、七十七、八十八、九十九。",
+        "pinyin": "liù shí liù, qī shí qī, bā shí bā, jiǔ shí jiǔ.",
+        "vi": "Sáu mươi sáu, bảy mươi bảy, tám mươi tám, chín mươi chín.",
+        "tokens": [
+          {
+            "han": "六十六",
+            "pinyin": "liù shí liù",
+            "vi": "sáu mươi sáu"
+          },
+          {
+            "han": "七十七",
+            "pinyin": "qī shí qī",
+            "vi": "bảy mươi bảy"
+          },
+          {
+            "han": "八十八",
+            "pinyin": "bā shí bā",
+            "vi": "tám mươi tám"
+          },
+          {
+            "han": "九十九",
+            "pinyin": "jiǔ shí jiǔ",
+            "vi": "chín mươi chín"
+          }
+        ],
+        "added": [
+          "六十六",
+          "七十七",
+          "八十八",
+          "九十九"
+        ],
+        "viParts": [
+          {
+            "text": "Sáu mươi sáu,"
+          },
+          {
+            "text": "bảy mươi bảy,"
+          },
+          {
+            "text": "tám mươi tám,"
+          },
+          {
+            "text": "chín mươi chín."
+          }
+        ]
+      },
+      {
+        "han": "九十九加一是一百。",
+        "pinyin": "jiǔ shí jiǔ jiā yī shì yì bǎi.",
+        "vi": "Chín mươi chín cộng một bằng một trăm.",
+        "tokens": [
+          {
+            "han": "九十九",
+            "pinyin": "jiǔ shí jiǔ",
+            "vi": "chín mươi chín"
+          },
+          {
+            "han": "加",
+            "pinyin": "jiā",
+            "vi": "cộng"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "bằng"
+          },
+          {
+            "han": "一百",
+            "pinyin": "yì bǎi",
+            "vi": "một trăm"
+          }
+        ],
+        "added": [
+          "一百"
+        ],
+        "viParts": [
+          {
+            "text": "Chín mươi chín"
+          },
+          {
+            "text": "cộng"
+          },
+          {
+            "text": "một"
+          },
+          {
+            "text": "bằng"
+          },
+          {
+            "text": "một trăm."
+          }
+        ]
+      },
+      {
+        "han": "我有二十本书，每本书五块钱，一共一百块钱。",
+        "pinyin": "wǒ yǒu èr shí běn shū, měi běn shū wǔ kuài qián, yígòng yì bǎi kuài qián.",
+        "vi": "Tôi có hai mươi quyển sách, mỗi quyển giá năm tệ, tổng cộng là một trăm tệ.",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "有",
+            "pinyin": "yǒu",
+            "vi": "có"
+          },
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "本",
+            "pinyin": "běn",
+            "vi": "lượng từ cho sách"
+          },
+          {
+            "han": "书",
+            "pinyin": "shū",
+            "vi": "sách"
+          },
+          {
+            "han": "每",
+            "pinyin": "měi",
+            "vi": "mỗi"
+          },
+          {
+            "han": "本",
+            "pinyin": "běn",
+            "vi": "lượng từ cho sách"
+          },
+          {
+            "han": "书",
+            "pinyin": "shū",
+            "vi": "sách"
+          },
+          {
+            "han": "五",
+            "pinyin": "wǔ",
+            "vi": "năm"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "一共",
+            "pinyin": "yígòng",
+            "vi": "tổng cộng"
+          },
+          {
+            "han": "一百",
+            "pinyin": "yì bǎi",
+            "vi": "một trăm"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ],
+        "added": [
+          "有",
+          "本",
+          "书",
+          "每",
+          "块",
+          "钱",
+          "一共"
+        ],
+        "viParts": [
+          {
+            "text": "Tôi có"
+          },
+          {
+            "text": "hai mươi quyển sách,"
+          },
+          {
+            "text": "mỗi quyển"
+          },
+          {
+            "text": "giá năm tệ,"
+          },
+          {
+            "text": "tổng cộng"
+          },
+          {
+            "text": "là một trăm tệ."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "han": "你会数一到十吗？",
+        "pinyin": "nǐ huì shǔ yī dào shí ma?",
+        "vi": "Bạn biết đếm từ một đến mười không?",
+        "tokens": [
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "会",
+            "pinyin": "huì",
+            "vi": "biết"
+          },
+          {
+            "han": "数",
+            "pinyin": "shǔ",
+            "vi": "đếm"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "到",
+            "pinyin": "dào",
+            "vi": "đến"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          },
+          {
+            "han": "吗",
+            "pinyin": "ma",
+            "vi": "trợ từ nghi vấn"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "会！一、二、三、四、五、六、七、八、九、十。",
+        "pinyin": "huì! yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí.",
+        "vi": "Biết chứ! Một, hai, ba, bốn, năm, sáu, bảy, tám, chín, mười.",
+        "tokens": [
+          {
+            "han": "会",
+            "pinyin": "huì",
+            "vi": "biết"
+          },
+          {
+            "han": "一",
+            "pinyin": "yī",
+            "vi": "một"
+          },
+          {
+            "han": "二",
+            "pinyin": "èr",
+            "vi": "hai"
+          },
+          {
+            "han": "三",
+            "pinyin": "sān",
+            "vi": "ba"
+          },
+          {
+            "han": "四",
+            "pinyin": "sì",
+            "vi": "bốn"
+          },
+          {
+            "han": "五",
+            "pinyin": "wǔ",
+            "vi": "năm"
+          },
+          {
+            "han": "六",
+            "pinyin": "liù",
+            "vi": "sáu"
+          },
+          {
+            "han": "七",
+            "pinyin": "qī",
+            "vi": "bảy"
+          },
+          {
+            "han": "八",
+            "pinyin": "bā",
+            "vi": "tám"
+          },
+          {
+            "han": "九",
+            "pinyin": "jiǔ",
+            "vi": "chín"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "很好！十加五是多少？",
+        "pinyin": "hěn hǎo! shí jiā wǔ shì duōshao?",
+        "vi": "Rất tốt! Mười cộng năm bằng bao nhiêu?",
+        "tokens": [
+          {
+            "han": "很",
+            "pinyin": "hěn",
+            "vi": "rất"
+          },
+          {
+            "han": "好",
+            "pinyin": "hǎo",
+            "vi": "tốt"
+          },
+          {
+            "han": "十",
+            "pinyin": "shí",
+            "vi": "mười"
+          },
+          {
+            "han": "加",
+            "pinyin": "jiā",
+            "vi": "cộng"
+          },
+          {
+            "han": "五",
+            "pinyin": "wǔ",
+            "vi": "năm"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "bằng"
+          },
+          {
+            "han": "多少",
+            "pinyin": "duōshao",
+            "vi": "bao nhiêu"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "十五！二十加三是二十三。",
+        "pinyin": "shí wǔ! èr shí jiā sān shì èr shí sān.",
+        "vi": "Mười lăm! Hai mươi cộng ba bằng hai mươi ba.",
+        "tokens": [
+          {
+            "han": "十五",
+            "pinyin": "shí wǔ",
+            "vi": "mười lăm"
+          },
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "加",
+            "pinyin": "jiā",
+            "vi": "cộng"
+          },
+          {
+            "han": "三",
+            "pinyin": "sān",
+            "vi": "ba"
+          },
+          {
+            "han": "是",
+            "pinyin": "shì",
+            "vi": "bằng"
+          },
+          {
+            "han": "二十三",
+            "pinyin": "èr shí sān",
+            "vi": "hai mươi ba"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "对！你今年多大？",
+        "pinyin": "duì! nǐ jīnnián duō dà?",
+        "vi": "Đúng rồi! Năm nay bạn bao nhiêu tuổi?",
+        "tokens": [
+          {
+            "han": "对",
+            "pinyin": "duì",
+            "vi": "đúng"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "今年",
+            "pinyin": "jīnnián",
+            "vi": "năm nay"
+          },
+          {
+            "han": "多大",
+            "pinyin": "duō dà",
+            "vi": "bao nhiêu tuổi"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "我今年二十岁。你呢？",
+        "pinyin": "wǒ jīnnián èr shí suì. nǐ ne?",
+        "vi": "Năm nay tôi hai mươi tuổi. Còn bạn?",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "今年",
+            "pinyin": "jīnnián",
+            "vi": "năm nay"
+          },
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "岁",
+            "pinyin": "suì",
+            "vi": "tuổi"
+          },
+          {
+            "han": "你",
+            "pinyin": "nǐ",
+            "vi": "bạn"
+          },
+          {
+            "han": "呢",
+            "pinyin": "ne",
+            "vi": "còn ... thì sao"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "han": "我二十三岁。这本书多少钱？",
+        "pinyin": "wǒ èr shí sān suì. zhè běn shū duōshao qián?",
+        "vi": "Tôi hai mươi ba tuổi. Quyển sách này bao nhiêu tiền?",
+        "tokens": [
+          {
+            "han": "我",
+            "pinyin": "wǒ",
+            "vi": "tôi"
+          },
+          {
+            "han": "二十三",
+            "pinyin": "èr shí sān",
+            "vi": "hai mươi ba"
+          },
+          {
+            "han": "岁",
+            "pinyin": "suì",
+            "vi": "tuổi"
+          },
+          {
+            "han": "这",
+            "pinyin": "zhè",
+            "vi": "này"
+          },
+          {
+            "han": "本",
+            "pinyin": "běn",
+            "vi": "lượng từ cho sách"
+          },
+          {
+            "han": "书",
+            "pinyin": "shū",
+            "vi": "sách"
+          },
+          {
+            "han": "多少",
+            "pinyin": "duōshao",
+            "vi": "bao nhiêu"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "han": "二十块钱。五本书一共一百块钱。",
+        "pinyin": "èr shí kuài qián. wǔ běn shū yígòng yì bǎi kuài qián.",
+        "vi": "Hai mươi tệ. Năm quyển sách tổng cộng một trăm tệ.",
+        "tokens": [
+          {
+            "han": "二十",
+            "pinyin": "èr shí",
+            "vi": "hai mươi"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          },
+          {
+            "han": "五",
+            "pinyin": "wǔ",
+            "vi": "năm"
+          },
+          {
+            "han": "本",
+            "pinyin": "běn",
+            "vi": "lượng từ cho sách"
+          },
+          {
+            "han": "书",
+            "pinyin": "shū",
+            "vi": "sách"
+          },
+          {
+            "han": "一共",
+            "pinyin": "yígòng",
+            "vi": "tổng cộng"
+          },
+          {
+            "han": "一百",
+            "pinyin": "yì bǎi",
+            "vi": "một trăm"
+          },
+          {
+            "han": "块",
+            "pinyin": "kuài",
+            "vi": "tệ"
+          },
+          {
+            "han": "钱",
+            "pinyin": "qián",
+            "vi": "tiền"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Viết bằng chữ Hán số 0.",
+        "answer": "零"
+      },
+      {
+        "question": "Viết bằng chữ Hán số 15.",
+        "answer": "十五"
+      },
+      {
+        "question": "Điền số còn thiếu: 二十、三十、____、五十。",
+        "answer": "四十"
+      },
+      {
+        "question": "Viết bằng chữ Hán số 68.",
+        "answer": "六十八"
+      },
+      {
+        "question": "Dịch sang tiếng Trung: Chín mươi chín cộng một bằng một trăm.",
+        "answer": "九十九加一是一百。"
+      }
+    ],
+    "practiceQuestions": [
+      {
+        "vi": "Số không.",
+        "han": "零。",
+        "pinyin": "Líng."
+      },
+      {
+        "vi": "Số ba.",
+        "han": "三。",
+        "pinyin": "Sān."
+      },
+      {
+        "vi": "Số mười.",
+        "han": "十。",
+        "pinyin": "Shí."
+      },
+      {
+        "vi": "Số mười hai.",
+        "han": "十二。",
+        "pinyin": "Shí èr."
+      },
+      {
+        "vi": "Số hai mươi.",
+        "han": "二十。",
+        "pinyin": "Èr shí."
+      },
+      {
+        "vi": "Số hai mươi ba.",
+        "han": "二十三。",
+        "pinyin": "Èr shí sān."
+      },
+      {
+        "vi": "Số bốn mươi tám.",
+        "han": "四十八。",
+        "pinyin": "Sì shí bā."
+      },
+      {
+        "vi": "Tôi hai mươi tuổi.",
+        "han": "我二十岁。",
+        "pinyin": "Wǒ èr shí suì."
+      },
+      {
+        "vi": "Quyển sách này giá tám mươi tám tệ.",
+        "han": "这本书八十八块钱。",
+        "pinyin": "Zhè běn shū bā shí bā kuài qián."
+      },
+      {
+        "vi": "Tôi có hai mươi quyển sách, mỗi quyển giá năm tệ, tổng cộng là một trăm tệ.",
+        "han": "我有二十本书，每本书五块钱，一共一百块钱。",
+        "pinyin": "Wǒ yǒu èr shí běn shū, měi běn shū wǔ kuài qián, yígòng yì bǎi kuài qián."
+      }
+    ]
   }
 ];
