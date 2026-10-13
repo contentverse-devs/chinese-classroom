@@ -198,3 +198,72 @@ main{max-width:1120px}
  #lessonCatalog .cc-lesson-tile{grid-template-columns:68px minmax(0,1fr);min-height:72px}
  #lessonCatalog .cc-lesson-image{width:68px;min-height:72px}
 }
+
+/* V2.17 – compact responsive layout: desktop, tablet and mobile.
+   Presentation only. No changes to lesson, license, or persistence logic. */
+@media (min-width: 901px) {
+ main{max-width:1180px;margin:10px auto;padding:12px 18px}
+ #library{padding:14px 18px}
+ #lessonCatalog.lesson-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:9px}
+ #lessonCatalog .cc-lesson-image{height:58px}
+ #lessonCatalog .cc-tile-body{padding:8px 10px;gap:3px}
+ #lessonCatalog .cc-tile-body strong{font-size:13px;line-height:1.28}
+ #lessonCatalog .cc-tile-body small{font-size:10px;line-height:1.3}
+ #lessonCatalog .cc-tile-body .tag{font-size:10px}
+}
+@media (min-width: 601px) and (max-width:900px){
+ main{max-width:100%;margin:8px auto;padding:10px 14px}
+ #library{padding:13px 15px}
+ #lessonCatalog.lesson-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+ #lessonCatalog .cc-lesson-image{height:58px}
+ #lessonCatalog .cc-tile-body{padding:8px;gap:3px}
+ #lessonCatalog .cc-tile-body strong{font-size:13px}
+}
+@media (min-width:601px){
+ header h1{font-size:clamp(22px,2.5vw,28px);margin:0 0 3px}
+ header p{font-size:13px;margin:0}
+ .cc-main-nav{margin:10px 0 5px;gap:6px}
+ .cc-main-nav button{padding:9px 12px;font-size:13px}
+ .display-settings{padding:10px 14px;margin:8px 0}
+ .cc-library-head h2,#library .cc-library-head h2{font-size:20px;margin:0 0 3px}
+ .cc-library-head p{font-size:12px;margin:0 0 4px}
+ .cc-search-label input{padding:9px 10px}
+ #levelFilters{margin-top:6px}
+ #levelFilters .filter{min-height:32px;padding:6px 10px}
+ #catalogCount{margin-top:5px}
+ #lessonCatalog .cc-lesson-tile{border-radius:10px}
+ #lessonCatalog .cc-tile-progress{margin-top:auto;padding-top:2px}
+ .cc-pages{margin-top:10px}
+}
+@media (max-width:600px){
+ main{margin:0 auto;padding:7px 9px}
+ header h1{font-size:21px;line-height:1.2;margin:0 0 2px}
+ header p{font-size:11px;line-height:1.35;margin:0 0 5px}
+ .card{margin:7px 0;padding:11px;border-radius:11px}
+ .cc-main-nav{margin:7px 0 4px;gap:5px}
+ .cc-main-nav button{margin:0;padding:8px 10px;font-size:12px;min-height:38px}
+ .display-settings{padding:8px 10px;margin:6px 0}
+ .settings-heading{gap:5px}
+ .settings-heading .small{font-size:10px}
+ .setting-options{gap:6px}
+ .setting-toggle{font-size:12px;padding:7px 9px}
+ #library{padding:10px}
+ #library .cc-library-head h2{font-size:18px;margin:0 0 2px}
+ .cc-library-head p{font-size:11px;margin:0 0 5px}
+ .cc-search-label{font-size:11px;gap:3px}
+ .cc-search-label input{padding:8px 10px;font-size:13px}
+ #levelFilters{margin-top:6px;gap:3px}
+ #levelFilters .filter{margin:1px;padding:7px 9px;font-size:11px;min-height:34px}
+ #catalogCount{font-size:11px;margin:6px 0 0}
+ #lessonCatalog.lesson-grid{grid-template-columns:minmax(0,1fr);gap:6px;margin-top:7px}
+ #lessonCatalog .cc-lesson-tile{display:grid;grid-template-columns:64px minmax(0,1fr);min-height:66px;border-radius:9px}
+ #lessonCatalog .cc-lesson-image{width:64px;height:100%;min-height:66px;max-height:92px;object-fit:cover}
+ #lessonCatalog .cc-tile-body{padding:6px 9px;gap:2px}
+ #lessonCatalog .cc-tile-body strong{font-size:12.5px;line-height:1.25;min-height:0}
+ #lessonCatalog .cc-tile-body .tag{font-size:9px}
+ #lessonCatalog .cc-tile-body small:not(.cc-tile-progress){display:none}
+ #lessonCatalog .cc-tile-progress{font-size:10px;line-height:1.2;margin-top:1px;padding-top:0}
+ .cc-pages{gap:7px;margin-top:9px}
+ .cc-pages button{padding:8px 10px;font-size:12px}
+}
+@media (prefers-reduced-motion:reduce){#lessonCatalog .cc-lesson-tile{transition:none}}
