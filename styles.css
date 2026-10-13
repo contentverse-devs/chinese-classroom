@@ -152,6 +152,10 @@ main{max-width:1120px}
 }
 @media(max-width:340px){#lessonCatalog.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+.cc-focus-han,.cc-focus-py,.cc-focus-vi{color:#b91c1c!important;background:#fff1f2;border:1.5px solid #dc2626;border-radius:6px;padding:2px 5px;font-weight:800}
+
+.cc-vocab-section,.cc-exercises{border:1px solid #cbd5e1;border-radius:12px;padding:12px;margin:12px 0}.cc-vocab-section summary,.cc-exercises summary{cursor:pointer;font-weight:700}.cc-vocab-row{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e2e8f0;padding:8px 2px;flex-wrap:wrap}.cc-vocab-row button{width:auto}.cc-dialogue-focus{color:#b91c1c!important;background:#fff1f2!important;border:2px solid #dc2626!important;font-weight:800}
+
 /* Luyện viết từng bước: bàn phím + bảng viết tay, không tự hiện đáp án */
 .cc-writing-exercise{margin:20px 0 12px;padding:18px;border:1px solid #cbdcf0;background:#f8fbff;border-radius:14px;max-width:100%}
 .cc-writing-exercise h3{margin:0 0 8px;color:#173a67;font-size:19px}
@@ -174,3 +178,23 @@ main{max-width:1120px}
 .cc-ime-suggestions button{margin:0;padding:7px 10px;min-height:38px!important;background:#fff;color:#155bb0;border:1px solid #a9c5e8;font-size:15px}
 .cc-ime-controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.cc-ime-controls button{margin:0;font-size:14px}
 .cc-ime-note{font-size:12px;color:#53657b;margin:8px 0 0}
+
+/* Mobile compact lesson catalog – presentation only, no lesson/license logic changes */
+@media (max-width:600px){
+ #lessonCatalog.lesson-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:7px;margin-top:9px}
+ #lessonCatalog .cc-lesson-tile{display:grid;grid-template-columns:78px minmax(0,1fr);align-items:stretch;min-height:78px;border-radius:10px;overflow:hidden;margin:0;width:100%;text-align:left}
+ #lessonCatalog .cc-lesson-image{width:78px;height:100%;min-height:78px;max-height:110px;object-fit:cover;align-self:stretch}
+ #lessonCatalog .cc-tile-body{display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:0;padding:7px 10px}
+ #lessonCatalog .cc-tile-body .tag{font-size:10px;line-height:1.2}
+ #lessonCatalog .cc-tile-body strong{font-size:13px;line-height:1.3;min-height:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;overflow-wrap:anywhere}
+ #lessonCatalog .cc-tile-body small:not(.cc-tile-progress){display:none}
+ #lessonCatalog .cc-tile-progress{margin-top:2px;padding-top:0;font-size:10px;line-height:1.25}
+ #library .cc-library-head h2{font-size:20px}
+ #library .cc-library-head p{margin:0 0 6px;font-size:12px}
+ #catalogCount{margin:7px 0 0}
+}
+@media (max-width:360px){
+ #lessonCatalog.lesson-grid{grid-template-columns:minmax(0,1fr)}
+ #lessonCatalog .cc-lesson-tile{grid-template-columns:68px minmax(0,1fr);min-height:72px}
+ #lessonCatalog .cc-lesson-image{width:68px;min-height:72px}
+}
